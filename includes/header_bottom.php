@@ -1,11 +1,13 @@
+
 <section class="aa-header-bottom">
+	<div class="transform-box"></div>
 	<div class="container">
 		<div class="row">
 
-			<div class="col-md-5">
-				<img src="img/main_tel.png" alt="">
+			<div class="col-md-2 col-md-pull-2 col-lg-2 col-lg-pull-2 col-sm-12 col-xs-12">
+				<img src="img/main_tel.png" alt="" class="main_tel">
 			</div>
-			<div class="col-md-7">
+			<div class="col-md-7 col-md-push-2 col-lg-7 col-lg-push-2 col-sm-12 col-xs-12">
 				<div class="aa-header-bottom-block">
 					<div class="aa-head-title">
 						Мессенджер <br>
@@ -30,5 +32,5 @@
 			</div>
 		</div>
 	</div>
-	<div class="transform-box"></div>
+	
 </section>

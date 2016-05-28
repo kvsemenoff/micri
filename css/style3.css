@@ -1,7 +1,22 @@
+.bodyPad {
+  position: relative; }
+
+.aa-dark-body {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); }
+
 .header-top {
   background: #38c2ff;
   padding: 30px 0;
-  line-height: 80px; }
+  line-height: 80px;
+  word-wrap: normal;
+  white-space: nowrap; }
 
 .logobox {
   text-align: right; }
@@ -17,7 +32,8 @@
   letter-spacing: 0.15em;
   line-height: 20px;
   vertical-align: middle;
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 45px; }
 
 .aa-key {
   font-family: "GothaProMed";
@@ -37,35 +53,53 @@
   height: 43px;
   display: inline-block;
   line-height: 43px;
-  padding-left: 53px; }
+  padding-left: 59px;
+  margin-left: 30px; }
 
 .header-middle {
   background: #38c2ff; }
+
+.header-middle-2 {
+  background: #fff;
+  padding: 16px 0; }
 
 .aa-menu-item {
   display: inline-block;
   line-height: 0; }
   .aa-menu-item a {
+    border: 2px solid transparent;
+    border-radius: 25px;
+    padding: 25px;
     display: inline-block;
-    padding: 15px;
     font-family: "GothaProBol";
     font-size: 18px;
-    margin-right: 50px;
+    margin-right: 33px;
     color: #000;
-    border-radius: 15px;
-    line-height: 0;
-    border: 2px solid transparent; }
+    line-height: 0; }
 
 .aa-menu-item a:hover {
+  border: 2px solid #fff;
   color: #fff;
-  border: 2px solid #fff; }
+  background: #38c2ff; }
+
+.aa-menu-item-2 a:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background: #38c2ff; }
 
 .aa-menu {
+  cursor: pointer;
   display: block;
   width: 100%;
   text-align: right; }
   .aa-menu span {
-    display: inline-block; }
+    display: inline-block;
+    margin-top: 1px;
+    font-size: 30px;
+    margin-right: 11px; }
+
+.menu-list-unpressed {
+  text-align: center; }
 
 @keyframes shadow {
   from {
@@ -74,7 +108,7 @@
     left: 0px; } }
 .header-top__menu-pressed {
   position: fixed;
-  width: 301px;
+  width: 250px;
   height: 100%;
   animation: shadow  1s 1 ease-in-out;
   left: 0px;
@@ -106,11 +140,31 @@
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .aa-menu-item a {
+    margin-right: 5px; } }
 /* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .aa-menu-item a {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 14px;
+    margin-right: 0px; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .menu-list-unpressed {
-    display: none; } }
+    display: none; }
+
+  .logobox {
+    text-align: left;
+    margin-left: 4px; }
+    .logobox img {
+      width: 150px;
+      height: 46px; }
+
+  .header-top {
+    padding: 0; } }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 
