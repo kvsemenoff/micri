@@ -1,5 +1,11 @@
 
+
+<div class="footer-top">
+	<div class="gray-trangle"></div>
+</div>
+
 <section class="footer">
+	<!-- <div class="footer-transform-box"></div> -->
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-md-push-3 col-sm-6 col-xs-6">
