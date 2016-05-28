@@ -86,7 +86,7 @@ strong {
   color: #2a292b; }
 
 .b-black {
-  background: #000;
+  background: #2a292b;
   color: #fff; }
 
 .b-broun {
@@ -102,7 +102,8 @@ strong {
   padding-bottom: 100px; }
 
 .aa-header-bottom {
-  background: #38c2ff; }
+  background: #38c2ff;
+  padding-top: 60px; }
 
 .aa-header-bottom-block .aa-head-title {
   font-family: "GothaProReg";
@@ -198,6 +199,19 @@ strong {
   padding: 15px 40px 0px 100px;
   margin-left: -100px; }
 
+.main_tel {
+  z-index: 5000;
+  position: relative; }
+
+.aa-header-bottom-block {
+  position: relative;
+  z-index: 5000; }
+
+.transform-box {
+  z-index: 20;
+  border-bottom-color: #fff !important;
+  background: none; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
@@ -215,6 +229,12 @@ strong {
     margin: 0 auto;
     margin-bottom: 25px; }
 
+  .main_tel {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px; }
+
   .h3-windows {
     display: inline-block;
     height: 63px;
@@ -227,8 +247,71 @@ strong {
     height: 63px;
     background: url(../img/android-circle.png) no-repeat top center;
     padding: 0px;
-    padding-top: 80px; } }
+    padding-top: 80px; }
+
+  .aa-header-bottom .b-white {
+    background: #38c2ff;
+    border: 1px solid #fff; }
+  .aa-header-bottom span.text {
+    color: #aeaeae !important; }
+  .aa-header-bottom .describe {
+    color: #2a292b !important; } }
 /* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 14px !important;
+    line-height: 18px !important;
+    margin-bottom: 20px !important; }
+
+  .aa-head-title {
+    font-size: 18px !important;
+    line-height: 24px !important; }
+
+  .aa-header-bottom {
+    text-align: center; }
+    .aa-header-bottom .b-white {
+      background: #38c2ff; }
+    .aa-header-bottom .button-1 {
+      height: 46px;
+      line-height: 46px;
+      font-size: 14px;
+      padding: 0 10px;
+      min-width: 190px; }
+    .aa-header-bottom .windows {
+      display: inline-block;
+      width: 22px;
+      height: 20px;
+      vertical-align: middle;
+      line-height: 46px;
+      background: url(../img/window-ico2.png);
+      margin-left: 20px; }
+    .aa-header-bottom .android {
+      display: inline-block;
+      width: 20px;
+      height: 24px;
+      vertical-align: middle;
+      line-height: 46px;
+      background: url(../img/andoid_ico2.png);
+      margin-left: 20px; }
+    .aa-header-bottom span.text {
+      margin-top: 2px !important;
+      color: #aeaeae !important;
+      font-size: 12px !important; }
+    .aa-header-bottom .describe {
+      color: #2a292b !important;
+      font-size: 14px !important;
+      line-height: 18px !important; }
+
+  .row-buttons {
+    text-align: center; }
+    .row-buttons .row-buttons__left, .row-buttons .row-buttons__right {
+      width: 100%;
+      display: block;
+      text-align: center; }
+    .row-buttons .row-buttons__left {
+      margin-bottom: 25px; }
+    .row-buttons .row-buttons__right {
+      padding-left: 0px; } }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .help-menu li {
@@ -242,8 +325,13 @@ strong {
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .aa-header-bottom-block {
+    padding-left: 30px; } }
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
 /***************/
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  outline: 1px solid red; }
 
 /*# sourceMappingURL=style.css.map */
