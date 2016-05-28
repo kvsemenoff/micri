@@ -38,6 +38,7 @@
 			</div>
 		</div>
 </section>
+<<<<<<< HEAD
 <section class="header-middle header-middle">
 		<div class="container">
 			<div class="row">
@@ -48,6 +49,18 @@
 					<li class="aa-menu-item aa-menu-item"><a href="#" class="">Загрузка</a></li>
 					<li class="aa-menu-item aa-menu-item"><a href="#" class="">Помощь</a></li>
 					<li class="aa-menu-item aa-menu-item"><a href="#" class="">Контакты</a></li>
+=======
+<section class="header-middle">
+		<div class="container">
+			<div class="row">
+				<ul class="menu-list-unpressed">
+					<li class="aa-menu-item"><a href="#" class="">Как это работает</a></li>
+					<li class="aa-menu-item"><a href="#" class="">Оплата</a></li>
+					<li class="aa-menu-item"><a href="#" class="">Документы</a></li>
+					<li class="aa-menu-item"><a href="#" class="">Загрузка</a></li>
+					<li class="aa-menu-item"><a href="#" class="">Помощь</a></li>
+					<li class="aa-menu-item"><a href="#" class="">Контакты</a></li>
+>>>>>>> cbba13d38123994fc90456cf1b0e5ff612593499
 				</ul>
 			</div>
 		</div>
@@ -64,7 +77,9 @@
 			$('.menu-list-unpressed').toggleClass('header-top__menu-pressed');
 			$(this).toggleClass('aa-dark-body');
 		});
-
+		$(window).resize(function(){
+//alert(1);
+		});	
 	});
 
 </script>

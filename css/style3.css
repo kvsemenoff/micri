@@ -120,7 +120,10 @@
   display: block !important;
   line-height: 30px !important; }
   .header-top__menu-pressed li {
-    display: block; }
+    display: block;
+    text-align: left; }
+    .header-top__menu-pressed li a:hover {
+      border: 2px solid #38c2ff; }
 
 /**/
 .aa-header-bottom {
@@ -164,6 +167,9 @@
       height: 46px; }
 
   .header-top {
+    padding: 0; }
+
+  .header-middle-2 {
     padding: 0; } }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
