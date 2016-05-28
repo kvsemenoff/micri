@@ -55,7 +55,6 @@
 
 <script>
 	$(document).ready(function(){
-		//alert(1);
 		$('.aa-menu').click(function(){
 			$('.menu-list-unpressed').toggleClass('header-top__menu-pressed');
 			$('#aa-dark-body').toggleClass('aa-dark-body');
@@ -64,8 +63,11 @@
 			$('.menu-list-unpressed').toggleClass('header-top__menu-pressed');
 			$(this).toggleClass('aa-dark-body');
 		});
+
 		$(window).resize(function(){
-//alert(1);
+			//alert(1);
+			//var aa_width = $('body').width();
+
 		});	
 	});
 
