@@ -42,11 +42,97 @@ h1 {
   line-height: 47px; }
 
 h2 {
-  font-family: "GothaProBol";
-  font-size: 18px; }
+  color: #2a292b;
+  font-family: "GothaProLig";
+  font-size: 36px;
+  line-height: 24px;
+  margin-bottom: 55px; }
+
+p {
+  font-family: "GothaProReg";
+  margin-bottom: 28px;
+  font-size: 18px;
+  line-height: 24px; }
+
+strong {
+  font-family: "GothaProMed"; }
 
 .center {
   text-align: center; }
+
+.button-1 {
+  display: inline-block;
+  height: 61px;
+  line-height: 61px;
+  padding: 0px 20px;
+  font-family: "GothaProBol";
+  font-size: 18px;
+  border-radius: 26px;
+  min-width: 230px;
+  text-align: center; }
+
+.b-white {
+  background: #fff;
+  color: #2a292b; }
+
+.b-black {
+  background: #000;
+  color: #fff; }
+
+.simple-page {
+  margin-top: 50px; }
+
+.aa-header-bottom {
+  background: #38c2ff; }
+
+.aa-header-bottom-block .aa-head-title {
+  font-family: "GothaProReg";
+  font-size: 34px;
+  color: #fff;
+  line-height: 47.22px;
+  text-transform: uppercase;
+  margin-bottom: 40px; }
+.aa-header-bottom-block .row-buttons {
+  text-align: center; }
+  .aa-header-bottom-block .row-buttons span.text {
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Arial, serif;
+    font-style: italic;
+    color: #fff;
+    margin-top: 20px; }
+.aa-header-bottom-block .windows {
+  display: inline-block;
+  width: 33px;
+  height: 31px;
+  vertical-align: middle;
+  line-height: 61px;
+  background: url(../img/window-ico.png);
+  margin-left: 20px; }
+.aa-header-bottom-block .android {
+  display: inline-block;
+  width: 26px;
+  height: 31px;
+  vertical-align: middle;
+  line-height: 61px;
+  background: url(../img/andoid_ico.png);
+  margin-left: 20px; }
+.aa-header-bottom-block .row-buttons__left, .aa-header-bottom-block .row-buttons__right {
+  display: table-cell;
+  vertical-align: top; }
+.aa-header-bottom-block .row-buttons__right {
+  padding-left: 25px; }
+.aa-header-bottom-block .describe {
+  color: #fff;
+  line-height: 24px;
+  font-size: 18px;
+  font-family: "GothaProReg";
+  margin-top: 35px; }
+
+.tel2 {
+  width: 100%;
+  height: auto; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
