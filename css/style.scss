@@ -240,13 +240,24 @@ strong{
 	z-index: 20;
 	border-bottom-color: #fff !important;
 	background: none;
-
+	
 }
 
 .header-middle-2{
 	border-bottom: 1px solid #eee;
 }
-
+.footer-top{
+	width: 100%;
+	min-height: 133px;
+	background: url(../img/footer_top.png) no-repeat top center;
+	position: relative;
+	background-size: cover;
+	
+}
+.footer{
+	margin-top: -2px;
+	padding-top: 50px !important;
+}
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -389,7 +400,10 @@ strong{
 	.header-middle-2{
 		border-bottom: none;
 	}
-
+	.footer-top{
+		background: url(../img/footer_top2.png) no-repeat top center;
+		background-size: cover;
+	}
 }
 
 /* Extra Small Devices, Phones */
