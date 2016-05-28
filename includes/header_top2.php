@@ -38,16 +38,16 @@
 			</div>
 		</div>
 </section>
-<section class="header-middle header-middle">
+<section class="header-middle header-middle-2">
 		<div class="container">
 			<div class="row">
 				<ul class="menu-list-unpressed">
-					<li class="aa-menu-item aa-menu-item"><a href="#" class="">Как это работает</a></li>
-					<li class="aa-menu-item aa-menu-item"><a href="#" class="">Оплата</a></li>
-					<li class="aa-menu-item aa-menu-item"><a href="#" class="">Документы</a></li>
-					<li class="aa-menu-item aa-menu-item"><a href="#" class="">Загрузка</a></li>
-					<li class="aa-menu-item aa-menu-item"><a href="#" class="">Помощь</a></li>
-					<li class="aa-menu-item aa-menu-item"><a href="#" class="">Контакты</a></li>
+					<li class="aa-menu-item aa-menu-item-2"><a href="#" class="">Как это работает</a></li>
+					<li class="aa-menu-item aa-menu-item-2"><a href="#" class="">Оплата</a></li>
+					<li class="aa-menu-item aa-menu-item-2"><a href="#" class="">Документы</a></li>
+					<li class="aa-menu-item aa-menu-item-2"><a href="#" class="">Загрузка</a></li>
+					<li class="aa-menu-item aa-menu-item-2"><a href="#" class="">Помощь</a></li>
+					<li class="aa-menu-item aa-menu-item-2"><a href="#" class="">Контакты</a></li>
 				</ul>
 			</div>
 		</div>
@@ -55,6 +55,7 @@
 
 <script>
 	$(document).ready(function(){
+		//alert(1);
 		$('.aa-menu').click(function(){
 			$('.menu-list-unpressed').toggleClass('header-top__menu-pressed');
 			$('#aa-dark-body').toggleClass('aa-dark-body');
@@ -64,14 +65,6 @@
 			$(this).toggleClass('aa-dark-body');
 		});
 
-<<<<<<< HEAD
-		$(window).resize(function(){
-			//alert(1);
-			//var aa_width = $('body').width();
-
-		});	
-=======
->>>>>>> 3e8c093ab272221a949951dc265c29e11156c7fe
 	});
 
 </script>

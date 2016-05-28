@@ -112,7 +112,7 @@ strong{
 }
 .aa-header-bottom{
 	background: #38c2ff;
-	padding-top: 60px;
+	padding-top: 80px;
 }
 .aa-header-bottom-block{
 
@@ -243,6 +243,10 @@ strong{
 
 }
 
+.header-middle-2{
+	border-bottom: 1px solid #eee;
+}
+
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -314,6 +318,14 @@ strong{
 		margin-bottom: 20px !important;
 
 	}
+	h1{
+		padding-top: 15px !important;
+		padding-bottom: 15px !important;
+	}
+	.simple-page{
+		margin-top: 0px !important;
+		padding-bottom: 50px !important;
+	}
     .aa-head-title{
 		font-size: 18px !important;
 		line-height: 24px !important;
@@ -374,6 +386,10 @@ strong{
 			padding-left: 0px;
 		}
 	}
+	.header-middle-2{
+		border-bottom: none;
+	}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -441,5 +457,4 @@ strong{
     //padding: 0px;
     //margin: 0px;
 }
-
 
