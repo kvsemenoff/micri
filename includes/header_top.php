@@ -55,7 +55,6 @@
 
 <script>
 	$(document).ready(function(){
-		//alert(1);
 		$('.aa-menu').click(function(){
 			$('.menu-list-unpressed').toggleClass('header-top__menu-pressed');
 			$('#aa-dark-body').toggleClass('aa-dark-body');
@@ -64,6 +63,34 @@
 			$('.menu-list-unpressed').toggleClass('header-top__menu-pressed');
 			$(this).toggleClass('aa-dark-body');
 		});
+
+
+		$(window).resize(function(){
+
+
+			//alert(1);
+			var aa_width = $('body').width();
+			var aa_left = (aa_width > 1199)? ((1200-aa_width)/10+67):
+			(aa_width > 992)? ((1200-aa_width)/10+55):
+			(aa_width > 768)? ((990-aa_width)/8+52):
+			(aa_width > 670)? ((770-aa_width)/6+80):
+			(aa_width > 630)? ((770-aa_width)/5+80):
+			(aa_width > 550)? ((770-aa_width)/4.4+80):
+			(aa_width > 480)? ((770-aa_width)/4+80):
+			(aa_width > 440)? ((770-aa_width)/3.5+80):
+			(aa_width > 410)? ((770-aa_width)/3.2+80):
+			(aa_width > 390)? ((770-aa_width)/3.1+80):
+			(aa_width > 370)? ((770-aa_width)/2.9+80):
+			(aa_width > 350)? ((770-aa_width)/2.7+80):
+			(aa_width > 330)? ((770-aa_width)/2.6+80):
+			(aa_width > 310)? ((770-aa_width)/2.45+80):
+			(aa_width > 0)? ((770-aa_width)/2.2+80):
+			1;
+			//1;
+
+			$('.transform-box').css('left', '-' + aa_left + '%');
+			//alert(aa_left);//1200 992 768 480 320
+		});	
 
 	});
 

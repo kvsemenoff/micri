@@ -199,14 +199,14 @@ to {left: 0px;}
 .transform-box{
     position: absolute;
     height: 0;
-    width: 1900px;
+    width: 2000px;
     //background: #fff;
     //outline: 1px solid #f00;
-    border-left: 950px solid transparent;
-    border-right: 950px solid transparent;
-    border-bottom: 450px solid #000;
+    border-left: 1000px solid transparent;
+    border-right: 1000px solid transparent;
+    border-bottom: 350px solid #000;
     bottom:0;
-    left:-43%;
+    left:-101%;
     transform-origin: 0% 100%;
     //transform: scale(19);
     //translate: transform(50%, 0);
@@ -274,6 +274,31 @@ to {left: 0px;}
 .header-middle-2{
     padding: 0;
 }
+
+.transform-box{
+    position: absolute;
+    height: 0;
+    width: 2000px;
+    //background: #fff;
+    //outline: 1px solid #f00;
+    border-left: 1000px solid transparent;
+    border-right: 1000px solid transparent;
+    border-bottom: 350px solid #000;
+    bottom:360px;
+    left:-101%;
+    transform-origin: 0% 100%;
+    //transform: scale(19);
+    //translate: transform(50%, 0);
+    //top: 100px;
+    //left: 100px;
+    // transform: rotate(90deg);
+    // -webkit-transform:rotate(45deg);
+    // -moz-transform:rotate(90deg);
+    // -o-transform:rotate(90deg);
+    //transform: rotate(45deg);
+    //transform: scale(2,1);
+}
+
 }
 
 /* Extra Small Devices, Phones */
