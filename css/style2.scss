@@ -30,7 +30,9 @@
 }
 .aa-footer-soclist__item{
 	display: inline-block;
-	margin-left: 13px;
+}
+.aa-footer-soclist-link{
+	margin-left: 14px;
 }
 .aa-footer-logo-box{
 	margin-top: 45px;
@@ -89,10 +91,17 @@
 		margin-top: 0px;
 	}   
 	.aa-footer-span{
-		margin-top: 86px;
+		margin-top: 82px;
 	}
 	.aa-footer-soclist{
 		margin-top: 93px;
+		margin-left: -38px;
+	}
+	.aa-footer-list{
+		padding-left: 57px;
+	}
+	.aa-footer-list1{
+		padding-left: 74px;
 	}
 }
 
