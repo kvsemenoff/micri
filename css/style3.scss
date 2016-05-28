@@ -12,6 +12,39 @@
 
 
 
+
+/**/
+.aa-header-bottom{
+    //outline: 1px solid #f00;
+    position: relative;
+    //height: 20px;
+    overflow: hidden;
+}
+
+.transform-box{
+    position: absolute;
+    height: 0;
+    width: 1900px;
+    //background: #fff;
+    //outline: 1px solid #f00;
+    border-left: 950px solid transparent;
+    border-right: 950px solid transparent;
+    border-bottom: 450px solid #000;
+    bottom:0;
+    left:-43%;
+    transform-origin: 0% 100%;
+    //transform: scale(19);
+    //translate: transform(50%, 0);
+    //top: 100px;
+    //left: 100px;
+    // transform: rotate(90deg);
+    // -webkit-transform:rotate(45deg);
+    // -moz-transform:rotate(90deg);
+    // -o-transform:rotate(90deg);
+    //transform: rotate(45deg);
+    //transform: scale(2,1);
+}
+
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
