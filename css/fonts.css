@@ -1,50 +1,26 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "MyriadPro-Cond";
-  src: url("../fonts/MyriadPro-Cond/MyriadPro-Cond.eot");
-  src: local("☺"), url("../fonts/MyriadPro-Cond/MyriadPro-Cond.woff") format("woff"), url("../fonts/MyriadPro-Cond/MyriadPro-Cond.ttf") format("truetype"), url("../fonts/MyriadPro-Cond/MyriadPro-Cond.svg") format("svg");
+  font-family: "GothaProMed";
+  src: url("../fonts/GothaProMed/GothaProMed.eot");
+  src: local("☺"), url("../fonts/GothaProMed/GothaProMed.woff") format("woff"), url("../fonts/GothaProMed/GothaProMed.ttf") format("truetype"), url("../fonts/GothaProMed/GothaProMed.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: "MyriadPro-Regular";
-  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot");
-  src: local("☺"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.svg") format("svg");
+  font-family: "GothaProBol";
+  src: url("../fonts/GothaProBol/GothaProBol.eot");
+  src: local("☺"), url("../fonts/GothaProBol/GothaProBol.woff") format("woff"), url("../fonts/GothaProBol/GothaProBol.ttf") format("truetype"), url("../fonts/GothaProBol/GothaProBol.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: "MyriadWebPro2";
-  src: url("../fonts/MyriadWebPro2/MyriadWebPro2.eot");
-  src: local("☺"), url("../fonts/MyriadWebPro2/MyriadWebPro2.woff") format("woff"), url("../fonts/MyriadWebPro2/MyriadWebPro2.ttf") format("truetype"), url("../fonts/MyriadWebPro2/MyriadWebPro2.svg") format("svg");
+  font-family: "GothaProReg";
+  src: url("../fonts/GothaProReg/GothaProReg.eot");
+  src: local("☺"), url("../fonts/GothaProReg/GothaProReg.woff") format("woff"), url("../fonts/GothaProReg/GothaProReg.ttf") format("truetype"), url("../fonts/GothaProReg/GothaProReg.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: "MyriadWebPro-Condensed";
-  src: url("../fonts/MyriadWebPro-Condensed/MyriadWebPro-Condensed.eot");
-  src: local("☺"), url("../fonts/MyriadWebPro-Condensed/MyriadWebPro-Condensed.woff") format("woff"), url("../fonts/MyriadWebPro-Condensed/MyriadWebPro-Condensed.ttf") format("truetype"), url("../fonts/MyriadWebPro-Condensed/MyriadWebPro-Condensed.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: "Myriad-Pro-Light-SemiExtended";
-  src: url("../fonts/Myriad-Pro-Light-SemiExtended/Myriad-Pro-Light-SemiExtended.eot");
-  src: local("☺"), url("../fonts/Myriad-Pro-Light-SemiExtended/Myriad-Pro-Light-SemiExtended.woff") format("woff"), url("../fonts/Myriad-Pro-Light-SemiExtended/Myriad-Pro-Light-SemiExtended.ttf") format("truetype"), url("../fonts/Myriad-Pro-Light-SemiExtended/Myriad-Pro-Light-SemiExtended.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: "MyriadPro-LightCond";
-  src: url("../fonts/MyriadPro-LightCond/MyriadPro-LightCond.eot");
-  src: local("☺"), url("../fonts/MyriadPro-LightCond/MyriadPro-LightCond.woff") format("woff"), url("../fonts/MyriadPro-LightCond/MyriadPro-LightCond.ttf") format("truetype"), url("../fonts/MyriadPro-LightCond/MyriadPro-LightCond.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: "MyriadPro-SemiboldSemiExt";
-  src: url("../fonts/MyriadPro-SemiboldSemiExt/MyriadPro-SemiboldSemiExt.eot");
-  src: local("☺"), url("../fonts/MyriadPro-SemiboldSemiExt/MyriadPro-SemiboldSemiExt.woff") format("woff"), url("../fonts/MyriadPro-SemiboldSemiExt/MyriadPro-SemiboldSemiExt.ttf") format("truetype"), url("../fonts/MyriadPro-SemiboldSemiExt/MyriadPro-SemiboldSemiExt.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: "MyriadPro-Light";
-  src: url("../fonts/MyriadPro-Light/MyriadPro-Light.eot");
-  src: local("☺"), url("../fonts/MyriadPro-Light/MyriadPro-Light.woff") format("woff"), url("../fonts/MyriadPro-Light/MyriadPro-Light.ttf") format("truetype"), url("../fonts/MyriadPro-Light/MyriadPro-Light.svg") format("svg");
+  font-family: "GothaProLig";
+  src: url("../GothaProLig/fonts/GothaProLig.eot");
+  src: local("☺"), url("../fonts/GothaProLig/GothaProLig.woff") format("woff"), url("../fonts/GothaProLig/GothaProLig.ttf") format("truetype"), url("../fonts/GothaProLig/GothaProLig.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 
