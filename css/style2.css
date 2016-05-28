@@ -13,12 +13,11 @@
 .aa-footer-list {
   text-align: left; }
 
-.aa-footer-list__item {
+.aa-footer-list-link {
   font-family: "GothaProReg";
   font-size: 16px;
-  line-height: 24px; }
-  .aa-footer-list__item a {
-    color: #605f5f; }
+  line-height: 24px;
+  color: #605f5f; }
 
 .aa-footer-soclist {
   display: inline-block;
