@@ -42,7 +42,7 @@
 
 
 
-  .logobox{
+.logobox{
      text-align: right;
 
      //margin-top: -4px;  
@@ -54,15 +54,15 @@
 }
 
 .aa-degree{
-color: #fff;
-font-size: 13px;
-text-transform: uppercase;
-font-family: "GothaProMed";
-letter-spacing: 0.15em;
-line-height: 20px;
-vertical-align: middle;
-display: inline-block;
-margin-left: 45px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "GothaProMed";
+    letter-spacing: 0.15em;
+    line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 45px;
 }
 
 .aa-key{
@@ -169,10 +169,13 @@ to {left: 0px;}
     line-height: 30px !important;
     
        
-        li{
-
-            display: block;
+    li{
+        a:hover{
+            border: 2px solid #38c2ff;
         }
+        display: block;
+        text-align: left;
+    }
     
 }
 
@@ -267,6 +270,9 @@ to {left: 0px;}
 
 .header-top{
    padding: 0;
+}
+.header-middle-2{
+    padding: 0;
 }
 }
 
