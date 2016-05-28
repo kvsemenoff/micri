@@ -1,12 +1,17 @@
 .footer {
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 0px 4px 60px 4px; }
 
 .aa-footer-span {
   display: inline-block;
   font-family: "GothaProReg";
   font-size: 14px;
   line-height: 24px;
-  margin-top: 86px; }
+  margin-top: 27px; }
+
+.aa-footer-list {
+  text-align: left; }
 
 .aa-footer-list__item {
   font-family: "GothaProReg";
@@ -15,21 +20,43 @@
   .aa-footer-list__item a {
     color: #605f5f; }
 
-.aa-footer-logo {
-  display: block; }
-
 .aa-footer-soclist {
   display: inline-block;
   margin-top: 93px; }
+
+.aa-footer-soclist {
+  margin-top: 25px; }
 
 .aa-footer-soclist__item {
   display: inline-block;
   margin-left: 13px; }
 
-.red {
-  outline: 1px solid red; }
+.aa-footer-logo-box {
+  margin-top: 45px; }
 
-.yel {
-  outline: 1px solid #000; }
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .footer {
+    padding-bottom: 90px; }
+
+  .aa-footer-logo-box {
+    margin-top: 0px; }
+
+  .aa-footer-span {
+    margin-top: 86px; }
+
+  .aa-footer-soclist {
+    margin-top: 93px; } }
+/* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=style2.css.map */
