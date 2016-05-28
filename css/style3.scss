@@ -5,6 +5,126 @@
 
 // ******************** header-top ********************
 
+.header-top{
+    background: #38c2ff;
+    padding: 30px 0;
+    line-height: 80px;
+    //display: 
+}
+
+
+
+  .logobox{
+     text-align: right;
+
+     //margin-top: -4px;  
+     img{
+        width: 253px;
+        height: 81px;
+
+     }
+}
+
+.aa-degree{
+color: #fff;
+font-size: 13px;
+text-transform: uppercase;
+font-family: "GothaProMed";
+letter-spacing: 0.15em;
+line-height: 20px;
+vertical-align: middle;
+display: inline-block;
+}
+
+.aa-key{
+    font-family: "GothaProMed";
+    color: #fff;
+    font-size: 16px;
+    background: url(../img/key.png) no-repeat;
+    height: 43px;
+    display: inline-block;
+    line-height: 43px;
+    padding-left: 53px;
+}
+
+.aa-question{
+    font-family: "GothaProMed";
+    color: #fff;
+    font-size: 16px;
+    background: url(../img/question.png) no-repeat;
+    height: 43px;
+    display: inline-block;
+    line-height: 43px;
+    padding-left: 53px;
+}
+
+
+.header-middle{
+    background: #38c2ff;
+
+}
+
+.aa-menu-item{
+    display: inline-block;
+    line-height: 0;
+    a{
+        display:inline-block;
+        padding: 15px;
+        font-family: "GothaProBol";
+        font-size: 18px;
+        margin-right: 50px;
+        color: #000;
+        border-radius: 15px;
+        line-height: 0;
+        border: 2px solid transparent;
+    }
+}
+
+.aa-menu-item{
+    a:hover{
+        color: #fff;
+        border: 2px solid #fff;
+    }
+}
+
+.aa-menu{
+    display: block;
+    width: 100%;
+    text-align: right;
+    span{
+        display: inline-block;
+        
+    
+    }
+}
+
+@keyframes shadow {
+from {left: -301px;}
+to {left: 0px;}
+}
+.header-top__menu-pressed {
+    position: fixed;
+    width: 301px;
+    height: 100%;
+    animation: shadow  1s 1 ease-in-out;
+    left: 0px;
+    top: 0px;
+    z-index: 10000;
+    padding: 20px 0 0 15px;
+    color: #fff;
+    background: #38c2ff;
+    display: block !important;
+    line-height: 30px !important;
+    
+       
+        li{
+
+            display: block;
+        }
+    
+}
+
+
 
 
 
@@ -45,6 +165,8 @@
     //transform: scale(2,1);
 }
 
+
+
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -58,7 +180,9 @@
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+.menu-list-unpressed{
+    display: none;
+}
 }
 
 /* Extra Small Devices, Phones */
