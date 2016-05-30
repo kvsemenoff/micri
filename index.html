@@ -1,0 +1,244 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Главная страница</title>
+
+		<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/style3.css">
+
+	<link rel="stylesheet" href="css/fonts.css">
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	
+	
+	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/wow/animate.css">
+	<meta content="telephone=no" name="format-detection"/>
+</head>
+<body>
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/owl.carousel/owl.carousel.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/wow/wow.min.js"></script>
+
+
+	<script>
+    	new WOW().init();
+    </script>
+
+	<script src="js/responsiveTabs.js"></script>
+	<script src="js/common.js"></script>
+
+	<div id="aa-dark-body" class=""></div>
+
+	<section class="header-top">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<div class="logobox">
+							<a href="/" class=""><img src="img/logo.png" alt=""></a>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6 hidden-xs">
+
+						<span class="aa-degree">Конфиденциальность<br>на высшем уровне</span>
+					</div>
+					
+					<div class="col-md-2 hidden-sm hidden-xs">
+						<a href="" class="aa-key">
+							Купить ключь
+						</a>
+					</div>
+					
+					<div class="col-md-3 hidden-sm hidden-xs">
+						<a href="" class="aa-question">
+							Задать вопрос
+						</a>
+					</div>
+					
+					<div class="hidden-lg hidden-md hidden-sm col-xs-6">
+							<span class="aa-menu">
+								<span><i class="fa fa-bars" aria-hidden="true"></i>
+								</span>
+							</span>
+					</div>
+					
+
+				</div>
+			</div>
+	</section>
+	<section class="header-middle header-middle">
+			<div class="container">
+				<div class="row">
+					<ul class="menu-list-unpressed">
+						<li class="aa-menu-item aa-menu-item"><a href="#" class="">Как это работает</a></li>
+						<li class="aa-menu-item aa-menu-item"><a href="#" class="">Оплата</a></li>
+						<li class="aa-menu-item aa-menu-item"><a href="#" class="">Документы</a></li>
+						<li class="aa-menu-item aa-menu-item"><a href="#" class="">Загрузка</a></li>
+						<li class="aa-menu-item aa-menu-item"><a href="#" class="">Помощь</a></li>
+						<li class="aa-menu-item aa-menu-item"><a href="#" class="">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+	</section>
+
+	<script>
+		$(document).ready(function(){
+
+			res2();
+			$('.aa-menu').click(function(){
+				$('.menu-list-unpressed').toggleClass('header-top__menu-pressed');
+				$('#aa-dark-body').toggleClass('aa-dark-body');
+			});
+			$('#aa-dark-body').click(function(){
+				$('.menu-list-unpressed').toggleClass('header-top__menu-pressed');
+				$(this).toggleClass('aa-dark-body');
+			});
+
+
+			$(window).resize(function(){
+				res2();
+			});	
+			function res2(){
+							//alert(1);
+				var aa_width = $('body').width();
+				var aa_left = (aa_width > 1300)? ((1200-aa_width)/13+67):
+				(aa_width > 1199)? ((1200-aa_width)/10+67):
+				(aa_width > 992)? ((1200-aa_width)/10+55):
+				(aa_width > 768)? ((990-aa_width)/8+52):
+				(aa_width > 670)? ((770-aa_width)/6+80):
+				(aa_width > 630)? ((770-aa_width)/5+80):
+				(aa_width > 550)? ((770-aa_width)/4.4+80):
+				(aa_width > 480)? ((770-aa_width)/4+80):
+				(aa_width > 440)? ((770-aa_width)/3.5+80):
+				(aa_width > 410)? ((770-aa_width)/3.2+80):
+				(aa_width > 390)? ((770-aa_width)/3.1+80):
+				(aa_width > 370)? ((770-aa_width)/2.9+80):
+				(aa_width > 350)? ((770-aa_width)/2.7+80):
+				(aa_width > 330)? ((770-aa_width)/2.6+80):
+				(aa_width > 310)? ((770-aa_width)/2.45+80):
+				(aa_width > 0)? ((770-aa_width)/2.2+80):
+				1;
+				//1;
+
+				$('.transform-box').css('left', '-' + aa_left + '%');
+			}
+
+		});
+
+	</script>
+	
+	<section class="aa-header-bottom">
+		<div class="transform-box"></div>
+		<div class="container aa-header-bottom__container ">
+			<div class="row">
+
+				<div class="col-md-2 col-md-pull-2 col-lg-2 col-lg-pull-2 col-sm-12 col-xs-12">
+					<img src="img/main_tel.png" alt="" class="main_tel">
+				</div>
+				<div class="col-md-7 col-md-push-2 col-lg-7 col-lg-push-2 col-sm-12 col-xs-12">
+					<div class="aa-header-bottom-block">
+						<div class="aa-head-title">
+							Мессенджер <br>
+							с интелектуальной <br>
+							системой безопасности 
+						</div>		
+						<div class="row-buttons">
+							<div class="row-buttons__left">
+								<a href="#" class="button-1 b-white">Скачать MICRI<span class="windows"></span></a>
+								<span class="text">Версия для Windows</span>
+							</div>
+							<div class="row-buttons__right">
+								<a href="#" class="button-1 b-black">Скачать MICRI<span class="android"></span></a>
+								<span class="text">Версия для Android</span>
+							</div>
+						</div>
+						<div class="describe">
+							<strong>MICRI</strong> - это кросс-платформенное приложение для смартфонов, позволяющее обмениваться сообщениями и при этом не платить, как за SMS. Приложение доступно для Android,  и, конечно, сообщения могут передаваться между всеми указанными смартфонами. 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+
+	<div class="container simple-page">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Как это работает</h2>
+				<p>
+					<strong>MICRI</strong> - это кросс-платформенное приложение для смартфонов, позволяющее обмениваться сообщениями и при этом не платить, как за SMS. Приложение доступно для Android,  и, конечно, сообщения могут передаваться между всеми указанными смартфонами. использует тот же тарифный план Интернета, что и электронная почта с браузером, поэтому при передаче сообщений отдельная плата взиматься не будет, и вы всегда сможете оставаться на связи с друзьями.
+				</p>
+				<p>
+				Кроме стандартного обмена сообщениями пользователи <strong>MICRI</strong> могут создавать группы, отправлять друг другу неограниченное число сообщений, фотографий, аудио- и видеофайлов. 
+
+				</p>
+			</div>
+			<div class="col-md-6">
+				<img src="img/tel2.png" alt="" class="tel2">
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-top">
+		<div class="gray-trangle"></div>
+	</div>
+
+	<section class="footer">
+		<!-- <div class="footer-transform-box"></div> -->
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-md-3 col-md-push-3 col-sm-6 col-xs-6">
+					<ul class="aa-footer-list aa-footer-list1">
+						<li><a href="#" class="aa-footer-list-link">Как это работает</a></li>
+						<li><a href="#" class="aa-footer-list-link">Оплата</a></li>
+						<li><a href="#" class="aa-footer-list-link">Документы</a></li>
+						<li><a href="#" class="aa-footer-list-link">Загрузка</a></li>
+						<li><a href="#" class="aa-footer-list-link">Помощь</a></li>
+						<li><a href="#" class="aa-footer-list-link">Контакты</a></li>
+					</ul>
+	            </div>
+	             <div class="col-md-3 col-md-push-3 col-sm-6 col-xs-6">
+					<ul class="aa-footer-list">
+						<li><a href="#" class="aa-footer-list-link">Получить ключ</a></li>
+						<li><a href="#" class="aa-footer-list-link">Задать вопрос</a></li>
+						<li><a href="#" class="aa-footer-list-link">Как установить</a></li>
+						<li><a href="#" class="aa-footer-list-link">Как продлить</a></li>
+						<li><a href="#" class="aa-footer-list-link">FAQ</a></li>
+					</ul>
+	            </div>
+	            <div class="col-md-3 col-md-pull-6 col-sm-12 col-xs-12">
+	            	<div class="aa-footer-logo-box">
+						<img src="img/logo-footer.png" alt="logo-footer" class="aa-footer-logo">
+					</div>
+					<span class="aa-footer-span">© 2015 micri.ru</span>
+	            </div>
+	             <div class="col-md-3 col-sm-12 col-xs-12">
+					<ul class="aa-footer-soclist">
+						<li class="aa-footer-soclist__item"><a href="#" class="aa-footer-soclist-link"><img src="img/fac.png" alt="fac.png"></a></li>
+						<li class="aa-footer-soclist__item"><a href="#" class="aa-footer-soclist-link"><img src="img/twit.png" alt="twit.png"></a></li>
+						<li class="aa-footer-soclist__item"><a href="#" class="aa-footer-soclist-link"><img src="img/vk.png" alt="vk.png"></a></li>
+					</ul>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+
+	<script>
+		$(document).ready(function() {
+			
+		});
+	</script>
+	
+</body>
+</html>

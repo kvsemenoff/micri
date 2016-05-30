@@ -269,6 +269,15 @@ strong {
   .aa-header-bottom span.text {
     color: #aeaeae !important; }
   .aa-header-bottom .describe {
+    color: #2a292b !important; }
+
+  .aa-header-bottom__container {
+    background: #fff; }
+
+  .aa-header-bottom-block {
+    margin-top: -100px; }
+
+  .aa-head-title {
     color: #2a292b !important; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
